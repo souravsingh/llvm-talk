@@ -7,12 +7,13 @@
 
 - Numba is Python package for running Python and NumPy code faster.
 
+
 ---
 
 #### How does it do the job?
 
 - It uses LLVM to generate intermediate code which can be compiled and optimized.
-- Ability to leverage GPU computation through CUDA.
+- Ability to leverage GPU computation through CUDA and NVVM.
 
 ----
 
@@ -20,6 +21,7 @@
 
 - Has a learning curve
 - Requires retooling a project, which can cost development time.
+- Certain libraries don't work with certain Python compilers (like Scipy for PyPy compilers)
 
 ---
 
