@@ -5,8 +5,9 @@
 
 #### What's Numba?
 
-- Numba is Python package for running Python and NumPy code faster.
-
+- Numba describes itself as a "NumPy aware dynamic Python compiler".
+- Created by Anaconda,Inc.
+- Optimizes NumPy arrays and mathematical operations using type inference.
 
 ---
 
